@@ -1,0 +1,10 @@
+^C:\USERS\WORK\CPP\CPP_PRACTICE_MINE\ASSIGNMENT_1\CMAKEFILES\6103F9C97DCDBD48B0897F01FFFB9D6E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/work/cpp/CPP_practice_mine/01_hello_world -BC:/Users/work/cpp/CPP_practice_mine/assignment_1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/work/cpp/CPP_practice_mine/assignment_1/01_hello_world.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

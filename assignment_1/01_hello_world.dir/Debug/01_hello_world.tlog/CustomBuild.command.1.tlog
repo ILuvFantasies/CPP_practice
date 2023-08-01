@@ -1,0 +1,10 @@
+^C:\USERS\WORK\CPP\CPP_PRACTICE_MINE\01_HELLO_WORLD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/work/cpp/CPP_practice_mine/01_hello_world -BC:/Users/work/cpp/CPP_practice_mine/assignment_1 --check-stamp-file C:/Users/work/cpp/CPP_practice_mine/assignment_1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
