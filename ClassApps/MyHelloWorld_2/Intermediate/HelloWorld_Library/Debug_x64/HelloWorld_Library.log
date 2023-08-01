@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+  Hello_Library.cpp
+     Creating library C:\Users\work\cpp\CPP_practice-Class_apps\ClassApps\MyHelloWorld_2\x64\Debug\HelloWorld_Library.lib and object C:\Users\work\cpp\CPP_practice-Class_apps\ClassApps\MyHelloWorld_2\x64\Debug\HelloWorld_Library.exp
+  HelloWorld_Library.vcxproj -> C:\Users\work\cpp\CPP_practice-Class_apps\ClassApps\MyHelloWorld_2\x64\Debug\HelloWorld_Library.dll
